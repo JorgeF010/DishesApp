@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DishesApp</string>
+
+    <string-array name="dishes" >
+        <item>Pasta</item>
+        <item>Pizza</item>
+    </string-array>
+
 </resources>
