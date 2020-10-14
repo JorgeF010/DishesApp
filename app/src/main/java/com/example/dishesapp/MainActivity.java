@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.inputmethodservice.Keyboard;
 import android.os.Bundle;
 import android.text.Editable;
 import android.view.KeyEvent;
@@ -24,9 +25,8 @@ public class MainActivity extends AppCompatActivity {
     private MyAdapter myAdapter;
     // Data
     private List<String> names;
-    // add
+    // data operations
     private FloatingActionButton addDish;
-    // remove
     private FloatingActionButton removeDish;
 
 
